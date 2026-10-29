@@ -8,7 +8,7 @@ def home():
     return jsonify({
         "service": "CS321 Subsystem B",
         "status": "running",
-        "message": "Subsystem B is running in Docker"
+        "message": "Subsystem B Version 2 - Updated through GitHub Actions"
     })
 
 @app.route("/health")
